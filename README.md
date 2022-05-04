@@ -20,6 +20,6 @@ Project Design:
 4. 8-bit real and imaginary value fix_fft output arrays used to compute frequency amplitudes.
 5. Frequency amplitude array used to determine the brightness of 32 LED sections (64 samples / 2).
    Each section represents a specific frequency and they all have a unique color.
-   Each section decreases in size as frequency it represents increases.
+   Each section decreases in size as the frequency it represents increases.
    These 32 sections are mirrored accross the center of the LED strip.
 6. AVR assembly code used to "bit-bang" the final data to the WS2818B LEDS.
