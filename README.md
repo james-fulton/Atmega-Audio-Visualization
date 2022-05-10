@@ -1,5 +1,4 @@
 # Atmega Audio Visualization
-
 Real-Time Audio Visualization for the Atmega2560
 
 Finished as the final project for ECE 372A at the University of Arizona.
